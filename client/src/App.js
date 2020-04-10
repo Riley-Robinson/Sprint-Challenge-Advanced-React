@@ -1,16 +1,16 @@
 import React from 'react';
-import './App.css';
-import { Player } from './components/Players';
-import Header from './components/Header';
-
-function App(){
-  return(
-    <div>
-      <Header />
-      <Player />
+import './App.scss';
+import Card from "./components/Card"
+import Navbar from "./components/Navbar"
+function App() {
+  return (
+    <div className="App">
+      <Navbar/>
+     <Card/>
     </div>
-  )
+  );
 }
+
 
 
 export default App

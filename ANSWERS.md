@@ -20,3 +20,12 @@ Custom Hooks are a mechanism to reuse stateful logic (such as setting up a subsc
 - [ ] Why is it important to test our apps?
 
 Testing determines whether the app can be successfully downloaded, executed and interacted with the supporting back-end content infrastructure. It's a vital factor in the development process that brings to market the high-quality product. Real device testing. It helps to guarantee an in-depth analysis of functionality.
+
+
+
+
+
+
+
+
+piqeruhbgpoqiebrgpiuqberpiugbqpeofbgpiquerbgpiuqebpgiuqberpjbqperibgpqoerbgpiqebrpiqebrpojqberpifjbqeprfbpqierbpiqerunfqpieurnfpuiqernfpiuqenrpiuqe

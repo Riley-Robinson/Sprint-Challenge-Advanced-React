@@ -1,24 +1,16 @@
 import {useEffect} from "react";
-import {useLocalStorage} from "./Hooks/useLocalStorage";
+import useLocalStorage from "../Hooks/useLocalStorage";
 
-
-export const useDarkMode = (value) => {
-
-            const [localStorage, setLocalStorage] = useLocalStorage("darkMode", value)
-
-
-            useEffect(()=> {
-                if (localStorage) {
-                    document.body.classList.add("dark-mode")
-                }
-                else{
-                    document.body.classList.remove("dark-mode")
-                }
-            },[localStorage])
-
-            const setDarkMode = (value) => {
-                setLocalStorage(value)
-            }
-
-            return [localStorage, setDarkMode]
+const useDarkMode = () => {
+    const [values, setValues] = useLocalStorage("darkMode");
+    useEffect(()=> {
+        if (values === true) {
+            document.body.classList.add("dark-mode")
+        } else {
+            document.body.classList.remove("dark-mode")
+        }
+    },[values])
+    return [values , setValues]
 }
+
+export default useDarkMode   

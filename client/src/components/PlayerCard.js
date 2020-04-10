@@ -6,9 +6,9 @@ const PlayerCard = props => {
     return(
         <div>
             <h2>{name}</h2>
-            <p>{country}</p>
+            <h3>{country}</h3>
         </div>
     )
 }
 
-export default PlayerCard
+export default PlayerCard;

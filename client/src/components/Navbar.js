@@ -8,7 +8,7 @@ const Navbar = () => {
     setDarkMode(!darkMode);
   };
   return (
-    <nav className="nav">
+    <nav className="nav" data-testid="navigation">
       <h1 className = "top">Players for stuff</h1>
       <div className="dark-mode__toggle">
         <div

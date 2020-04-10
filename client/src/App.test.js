@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
+import * as rt1 from '@testing-library/react'
 import { render } from "@testing-library/react";
 import Card from "./components/Card";
-import '@testing-library/jest-dom/extend-expect';
 import Navbar from "./components/Navbar"
+import '@testing-library/jest-dom/extend-expect';
 
 
 it("renders without crashing", () => {
